@@ -25,7 +25,7 @@ def health():
 def info():
     return jsonify({
         'name': 'Flask CI/CD Demo',
-        'author': 'Nana',
+        'author': 'Nana UTMJ',
         'features': ['Auto Build', 'Auto Deploy', 'Docker']
     })
 
