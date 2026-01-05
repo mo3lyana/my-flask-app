@@ -26,7 +26,6 @@ def info():
     return jsonify({
         'name': 'Flask CI/CD Demo',
         'author': 'Nana UTMJ',
-        'jabatan': 'Dosen',
         'features': ['Auto Build', 'Auto Deploy', 'Docker']
     })
 
