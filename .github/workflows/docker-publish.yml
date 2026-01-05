@@ -36,7 +36,6 @@ jobs:
   build:
     name: CD - Build & Push Docker Image
     runs-on: ubuntu-latest
-    needs: test
     if: github.event_name == 'push'
 
     steps:
