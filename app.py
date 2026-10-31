@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>Flask App with CI/CD</h1>
+    <h1>Flask App with CI/CD NIM: 123456</h1>
     <p>Deployed automatically using GitHub Actions!</p>
     <ul>
         <li><a href="/health">Health Check</a></li>
