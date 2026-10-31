@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return """
     <h1>Flask App with CI/CD Test, NIM: 123456</h1>
-    <p>Deployed automatically using GitHub Actions!</p>
+    <p>Deployed automatically using GitHub Actions! nama: budi</p>
     <ul>
         <li><a href="/health">Health Check</a></li>
         <li><a href="/api/info">API Info</a></li>
